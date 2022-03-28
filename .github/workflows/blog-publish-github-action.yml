@@ -8,3 +8,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Running Hello World
         run: echo "Hello"
+      - name: Use blog publish github action
+        uses: aru31/blog-publish-action@master
