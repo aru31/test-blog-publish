@@ -10,3 +10,7 @@ jobs:
         run: echo "Hello"
       - name: Use blog publish github action
         uses: aru31/blog-publish-action@master
+        with: 
+          test_variable: "some random value"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          random_token: ${{ secrets.RANDOM_TOKEN }}
