@@ -12,5 +12,5 @@ jobs:
         uses: aru31/blog-publish-action@master
         with: 
           test_variable: "some random value"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          random_token: ${{ secrets.RANDOM_TOKEN }}
+          token_github: ${{ secrets.GITHUB_TOKEN }}
+          token_random: ${{ secrets.RANDOM_TOKEN }}
