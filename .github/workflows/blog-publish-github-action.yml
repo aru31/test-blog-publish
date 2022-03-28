@@ -1,5 +1,5 @@
 name: blog-publish-github-action
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   blog-publish:
     runs-on: ubuntu-latest
