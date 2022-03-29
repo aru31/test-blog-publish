@@ -14,3 +14,4 @@ jobs:
           test_variable: "some random value"
           token_github: ${{ secrets.GITHUB_TOKEN }}
           token_random: ${{ secrets.RANDOM_TOKEN }}
+          token_devto: ${{ secrets.DEVTO_TOKEN }}
