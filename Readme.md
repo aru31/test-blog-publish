@@ -1,3 +1,7 @@
+## Instructions
+
+- For this to work the folder must be named blogs
+
 ## Supported Blogging Websites
 
 - Dev.to
