@@ -5,8 +5,8 @@ description: A small article on why your should avoid using rm in *nix based OS 
 tags:
   - post
   - linux
-draft: false
-hide: false
+devto_series: "Linux"
+published: True
 ---
 
 This article discusses why you should avoid `rm` command in `*nix` based operating systems. It is impossible to prevent it entirely since you will need to delete files/folders from your system. But it is generally a good idea to move the files/folders you want to delete to a recycle bin and then delete them after some time. I will also share the script and modification I used to adopt this setup.
