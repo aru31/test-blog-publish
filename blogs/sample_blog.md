@@ -16,3 +16,5 @@ But before diving in those of you unfamiliar with `rm`, it is a command used to 
 It is important to note that the command works silently, and once you delete your files and folders, you won't be able to get them back. At least easily. You can find various "undelete" utilities. But depending on the filesystem, it can get relatively complex.
 
 So I use a custom script that sends it to a recycle bin instead of deleting anything directly. Depending upon your OS, you may or may not have a recycle bin. If you don't have one, you can always make one.
+
+last line
