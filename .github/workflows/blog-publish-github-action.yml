@@ -4,14 +4,9 @@ jobs:
   blog-publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Donwloading Code
-        uses: actions/checkout@v2
-      - name: Running Hello World
-        run: echo "Hello"
       - name: Use blog publish github action
         uses: aru31/blog-publish-action@master
         with: 
-          test_variable: "some random value"
+          website: "devto"
           token_github: ${{ secrets.GITHUB_TOKEN }}
-          token_random: ${{ secrets.RANDOM_TOKEN }}
-          token_devto: ${{ secrets.DEVTO_TOKEN }}
+          token: ${{ secrets.DEVTO_TOKEN }}
