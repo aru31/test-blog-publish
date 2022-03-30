@@ -10,6 +10,7 @@ published: True
 ---
 
 slight change
+this should fail
 Short blog.
 
 ```python
