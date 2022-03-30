@@ -17,8 +17,6 @@ this should fail
 Short blog.
 
 ```python
-code block
-of python
 def python():
   pass
 
