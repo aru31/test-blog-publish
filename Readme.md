@@ -1,3 +1,7 @@
+## Info
+
+- Type of markdown we are using -> GitHub Markdown
+
 ## Instructions
 
 - For this to work the folder must be named blogs. If you want to name it something else then modify the `GITHUB_REPO_NAME` constant in `constants.py`
@@ -14,7 +18,7 @@
 ## To Do
 
 - [ ] Support Images for platforms
-- [ ] Support multiple files in a single commit
+- [x] Support multiple files in a single commit
 - [ ] Article update for dev.to
 
 ## Developer Tips
