@@ -8,8 +8,10 @@ jobs:
         uses: aru31/blog-publish-action@master
         with: 
           website: "devto"
+          log_level: "debug"
           token_github: ${{ secrets.GITHUB_TOKEN }}
           token: ${{ secrets.DEVTO_TOKEN }}
+          
   medium-blog-publish:
     runs-on: ubuntu-latest
     steps:
@@ -17,5 +19,17 @@ jobs:
         uses: aru31/blog-publish-action@master
         with: 
           website: "medium"
+          log_level: "debug"
           token_github: ${{ secrets.GITHUB_TOKEN }}
           token: ${{ secrets.MEDIUM_TOKEN }}
+
+  hashnode-blog-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use blog publish github action for hashnode
+        uses: aru31/blog-publish-action@master
+        with: 
+          website: "hashnode"
+          log_level: "debug"
+          token_github: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.HASHNODE_TOKEN }}
