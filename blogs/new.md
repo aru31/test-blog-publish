@@ -8,8 +8,9 @@ tags:
 devto_series: "Linux"
 published: True
 
-publish_devto: True   # Set this to true if you want to publish on devto, else false
-publish_medium: True   # Set this to true if you want to publish on medium, else false
+publish_devto: True # Set this to true if you want to publish on devto, else false
+publish_medium: True # Set this to true if you want to publish on medium, else false
+publish_hashnode: True # Set this to true if you want to publish on hashnode, else false
 ---
 
 slight change
@@ -17,8 +18,6 @@ this should fail
 Short blog.
 
 ```python
-code block
-of python
 def python():
   pass
 
@@ -55,3 +54,6 @@ def helloworld():
 
 </p>
 </details>
+ 
+new blog 
+modified, removed, added
