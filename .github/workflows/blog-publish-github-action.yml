@@ -1,7 +1,7 @@
 name: blog-publish-github-action
 on: [push, workflow_dispatch]
 jobs:
-  blog-publish:
+  devto-blog-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Use blog publish github action
@@ -10,3 +10,4 @@ jobs:
           website: "devto"
           token_github: ${{ secrets.GITHUB_TOKEN }}
           token: ${{ secrets.DEVTO_TOKEN }}
+          repository: ${{ github.GITHUB_REPOSITORY }}

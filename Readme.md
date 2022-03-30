@@ -1,6 +1,6 @@
 ## Instructions
 
-- For this to work the folder must be named blogs
+- For this to work the folder must be named blogs. If you want to name it something else then modify the `GITHUB_REPO_NAME` constant in `constants.py`
 
 ## Supported Blogging Websites
 
@@ -16,3 +16,7 @@
 - [ ] Support Images for platforms
 - [ ] Support multiple files in a single commit
 - [ ] Article update for dev.to
+
+## Developer Tips
+
+- All the print statements are logged in the workflow
