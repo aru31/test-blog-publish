@@ -1,5 +1,5 @@
 ---
-title: Something Different
+title: New blog with spaces in filename
 date: 2021-12-22
 description: A small article on why your should avoid using rm in *nix based OS whenever possible.
 tags:
@@ -55,3 +55,6 @@ def helloworld():
 
 </p>
 </details>
+ 
+new blog 
+modified, removed, added

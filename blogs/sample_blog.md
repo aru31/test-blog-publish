@@ -7,6 +7,8 @@ tags:
   - linux
 devto_series: "Linux"
 
+hashnode_publication_id: 6243f3afa8722ae0e658142d
+
 publish_devto: True # Set this to true if you want to publish on devto, else false
 publish_medium: True # Set this to true if you want to publish on medium, else false
 publish_hashnode: True # Set this to true if you want to publish on hashnode, else false
