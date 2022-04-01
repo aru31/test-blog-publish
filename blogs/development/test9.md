@@ -1,5 +1,5 @@
 ---
-title: use env variables
+title: use env variables blga blga
 date: 2021-11-22
 description: A small article on why your should avoid using rm in *nix based OS whenever possible.
 tags:
